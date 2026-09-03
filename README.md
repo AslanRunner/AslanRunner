@@ -51,7 +51,7 @@ During my software engineering internship, I designed and developed an enterpris
 - **Source Citation:** Accurately cites exact document origins for each generated finding.
 - **Dual Delivery Modes:** Operates both as a terminal CLI tool and as an interactive drag-and-drop **Streamlit** web application.
 
-#### 6. ⚡📲 LAN Share — Zero-Config AirDrop-Style Local P2P File Transfer System
+#### 6. ⚡📲 [LAN Share](https://github.com/AslanRunner/lan-share) 
 *An app-less local network file transfer hub that allows any device on the same Wi-Fi network (iOS, Android, Windows, macOS, Linux) to securely exchange multi-gigabyte files at maximum LAN speeds.*
 - **QR Discovery & PIN Gate:** Host terminal displays an ASCII QR code and 4-digit PIN on startup; enforces cryptographically signed session cookies (`itsdangerous`) to block unauthorized LAN clients.
 - **Flat 1 MB RAM Footprint:** Streams uploads in 1 MB chunks directly to disk, maintaining steady ~1 MB RAM consumption whether transferring small documents or 4 GB 4K video files.
