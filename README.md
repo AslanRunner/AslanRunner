@@ -1,63 +1,112 @@
-<div align="center">
-  <h1>Hi there, I'm Aslan Yusuf Zeybek</h1>
-  <h3>Computer Engineering Student at Galatasaray University | GPA: 3.38/4.00</h3>
-  <p>Software Developer specializing in full-stack development, hardware systems, and data structures.</p>
-  
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:YOUR_EMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
+# 👋 Hi, I'm Aslan Yusuf Zeybek; (EN)
+
+### 🎓 About Me
+
+I'm a Computer Engineering student at **Galatasaray University** (GPA: 3.38/4.00) with a strong passion for full-stack software engineering, applied artificial intelligence (LLMs & RAG), systems design, and digital hardware architecture. 
+
+During my software engineering internship, I designed and developed an enterprise-grade internal portal and employee management system. I am also an alumnus of the **Akbank Generative AI Bootcamp** (Global AI Hub). I am trilingual, fluent in Turkish, English, and French (DELF B2 certified).
 
 ---
 
-### About Me
+### 💡 Technologies I Know
 
-- Currently pursuing my undergraduate degree in **Computer Engineering** at Galatasaray University.
-- Gained professional experience during my software engineering internship, where I developed an internal company portal and an employee leave management module.
-- Successfully completed the **Akbank Generative AI Bootcamp** offered through Global AI Hub.
-- Trilingual professional, fluent in Turkish, English, and French (DELF B2 certified).
-- Passionate about building robust software implementations, exploring graph algorithms, and designing hardware systems.
-
----
-
-### Tech Stack & Tools
-
-**Programming Languages**  
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Verilog-102A45?style=for-the-badge&logo=fpga&logoColor=white" alt="Verilog" />
-
-**Frameworks & Libraries**  
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-
-**Hardware & Embedded**  
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+- **Programming Languages:** Python, Java, C, Verilog, JavaScript/TypeScript, SQL, HTML5/CSS3
+- **AI & LLM Engineering:** LangChain, Google Gemini API (Gemini 2.0 Flash), Chroma DB, RAG (Retrieval-Augmented Generation), Text Embeddings, Prompt Engineering
+- **Backend & Web Frameworks:** FastAPI, Spring Boot (Spring Security, Spring Data JPA, Hibernate), Streamlit, Uvicorn, RESTful APIs
+- **Frontend & UI Engineering:** React (Vite), TradingView Lightweight Charts, CustomTkinter, Jinja2, Responsive Glassmorphism UI
+- **Systems, Networking & Hardware:** Basys 3 FPGA, Vivado, P2P LAN Streaming, PostgreSQL, SQLite, Pandas, NumPy, MSS, Pillow, pynput
+- **Tools & DevOps:** Git, GitHub, VS Code, IntelliJ IDEA, Maven, Docker, Docker Compose, Linux / Bash
 
 ---
 
-### Featured Projects & Repositories
+### 🚀 Projects
 
-*   **[turkce-kitap-chatbot](https://github.com/AslanRunner/turkce-kitap-chatbot)**: A Retrieval-Augmented Generation (RAG) based book recommendation assistant.
-*   **Graph Community Detection**: C language implementations of the Fast Greedy and Louvain community detection algorithms, tested on the Zachary Karate Club dataset.
-*   **Terminal-Based Java RPG**: An interactive role-playing game applying advanced Object-Oriented Programming (OOP) design patterns, custom exceptions, and text file story integration.
-*   **FPGA ALU & 7-Segment Controller**: An Arithmetic Logic Unit and display controller implemented in Verilog on a Basys3 FPGA board.
-*   **Environmental Sensing System**: An Arduino hardware system incorporating a temperature/humidity sensor, potentiometer, LCD screen, and status LEDs to track air quality metrics.
-*   **Statistical Data Analysis**: Visualization projects utilizing pandas, Seaborn, and LaTeX to analyze chess opening performance and workspace survey datasets.
-*   **DC Motor Driver**: Hardware circuit design utilizing an Arduino Uno and a BC238B transistor to calculate and drive motor parameters.
+#### 1. 🏢 Enterprise Portal — Full-Stack Corporate Operations & Workforce Suite
+*A comprehensive, multi-tiered enterprise management platform engineered to centralize workforce directory operations, meeting room allocations, equipment inventory, and administrative workflows.*
+- **Three-Tier Architecture:** Built on a decoupled stack featuring a **Spring Boot** REST API, a responsive **React (Vite)** single-page application, and a **PostgreSQL** relational database.
+- **Adaptive RBAC & Governance:** Dual-layer Role-Based Access Control (`ADMIN`, `MANAGER`, `EMPLOYEE`) with automatic administrative view unlocking and strict self-approval prevention rules for leave/hardware requests.
+- **Resource Collision Engine:** Interactive meeting room scheduler (09:00–18:00) with client-side real-time conflict checking (`useMemo`) paired with strict server-side transaction validation.
+- **Business Rule Automation:** Working-day leave calculator with automatic weekend exclusion, dynamic hierarchical organizational tree directory, and corporate announcement boards with cascading database integrity (`orphanRemoval = true`).
+
+#### 2. 📚🤖 Türkçe Kitap Chatbot — AI-Powered Semantic Book Discovery Assistant
+*A personalized literary recommendation and conversational advisor driven by Retrieval-Augmented Generation (RAG) over a large-scale Turkish literature database.*
+- **Domain-Specific Dataset:** Ingests and indexes over **60,000+ curated Turkish books** sourced from the YTÜ COSMOS Turkish Book Dataset.
+- **Semantic Vector Pipeline:** Built with **Chroma DB** and **Google Text Embedding 004** to enable low-latency semantic search and contextual genre matching.
+- **GenAI Conversational Engine:** Powered by **Google Gemini 2.0 Flash** via **LangChain**, featuring multi-turn conversation memory, category filtering, and contextual book synthesis.
+- **User Interface:** Clean, interactive **Streamlit** dashboard delivering instant query responses and categorized book suggestions.
+
+#### 3. 📈⚡ Stock Viewer — Institutional Financial Terminal & Market Intelligence Engine
+*A high-performance equity analytics workstation, institutional technical charting canvas, and automated market intelligence engine.*
+- **Hardware-Accelerated Charting:** 60 FPS candlestick canvas powered by **TradingView Lightweight Charts v4**, optimized with `requestAnimationFrame` render gating, frustum culling, and HiDPI Retina scaling.
+- **Technical Drawing Tools:** Magnetic wick snapping, support/resistance trendlines, parallel regression channels, Fibonacci retracement levels (0.0%–100.0%), Elliott impulse waves, and translucent supply/demand zones with a multi-step Undo/Redo history stack.
+- **Market Intelligence & Automation:** Configurable trigger engine (price breakouts, stop-losses, RSI 14 overbought/oversold limits) with real-time SMTP email notifications, plus a background cron daemon dispatching scheduled daily/weekly PDF and HTML market intelligence reports.
+- **Dual Interface:** Full-stack architecture combining a modern **FastAPI** web workstation and an interactive terminal CLI.
+
+#### 4. 🕷️🔍 Scrape Agent — Autonomous Web Data Extraction & Pattern Recognition Suite
+*A zero-config scraping utility that automatically discovers repeating DOM structures (cards, tables, listings) and converts unstructured web pages into CSV/JSON datasets without manual selectors.*
+- **Dual Scraping Engines:** Integrates a fast, lightweight HTTP engine (`requests`) for static HTML and a headless Chromium engine (**Playwright**) for JavaScript-rendered Single Page Applications (SPAs).
+- **Automated Pattern Detection:** Heuristic DOM parser that identifies repeating structural clusters without needing hard-coded XPath or CSS rules.
+- **Modern Desktop GUI & CLI:** Built with **CustomTkinter** featuring light/dark themes, live table search/filtering, and one-click exports, alongside an interactive terminal CLI.
+
+#### 5. 📑🧠 AI PDF Question Answering & Multi-Document Comparative Synthesis Engine
+*A document intelligence application that ingests single or multiple PDF documents to provide conversational Q&A, cross-document comparison, and factual synthesis.*
+- **Context Fusion & Attribution:** Streams and extracts text using `pypdf`, marks document boundaries, and performs comparative cross-document analysis using **LangChain** and **Google Gemini**.
+- **Source Citation:** Accurately cites exact document origins for each generated finding.
+- **Dual Delivery Modes:** Operates both as a terminal CLI tool and as an interactive drag-and-drop **Streamlit** web application.
+
+#### 6. ⚡📲 LAN Share — Zero-Config AirDrop-Style Local P2P File Transfer System
+*An app-less local network file transfer hub that allows any device on the same Wi-Fi network (iOS, Android, Windows, macOS, Linux) to securely exchange multi-gigabyte files at maximum LAN speeds.*
+- **QR Discovery & PIN Gate:** Host terminal displays an ASCII QR code and 4-digit PIN on startup; enforces cryptographically signed session cookies (`itsdangerous`) to block unauthorized LAN clients.
+- **Flat 1 MB RAM Footprint:** Streams uploads in 1 MB chunks directly to disk, maintaining steady ~1 MB RAM consumption whether transferring small documents or 4 GB 4K video files.
+- **Security & UI:** Built-in path traversal protection (`resolve_upload_path`), two-way upload/download capabilities, and a responsive mobile-first glassmorphism dashboard with live progress indicators.
+
+#### 7. ⚙️ Basys 3 8-Bit Arithmetic Logic Unit (ALU) & Display Controller (Verilog)
+*An 8-bit digital ALU and custom control unit implemented in Verilog for the Xilinx Basys 3 FPGA development board.*
+- **Architecture & Instruction Set:** Connects a 16-bit instruction decoder (`control_unit.v`), 16 internal 8-bit registers, and a 256-byte internal RAM block to execute 16 arithmetic, logic, and memory operations.
+- **Hardware Signal Processing:** Features a clock-counter debouncer algorithm (~1M cycles on the 100 MHz clock) to eliminate tactile button contact bounce and metastability.
+- **Display Subsystem:** Binary-to-BCD conversion module and a high-speed optical multiplexer for the 4-digit 7-segment display, complete with Two's Complement signed negative number rendering.
+
+#### 8. 🔍 Zachary Karate Club Modularity Optimization & Community Detection (C)
+*A graph analytics and community detection suite developed in C to uncover natural community clustering within social networks.*
+- **Algorithmic Implementations:** Benchmarks three distinct strategies: **Fast Greedy** modularity optimization, the multi-phase **Louvain** algorithm, and a custom seed-based neighborhood proximity heuristic.
+- **Graph Mathematics:** Computes and outputs modularity scores ($Q$) and node assignment vectors across the 34-node, 78-edge Zachary Karate Club graph.
+
+#### 9. ⚔️ SoulReaper — Terminal-Based Fantasy Tactical RPG Engine (Java OOP)
+*An interactive terminal-based RPG developed in Java, architected to demonstrate advanced Object-Oriented Software Design patterns.*
+- **OOP Architecture:** Deep inheritance hierarchies (`BaseSoul`, `Shinigami`, `Enemy`, `VastoLorde`), polymorphism through specialized interfaces (`Attack`, `Usable`, `Lootable`, `Saveable`), and encapsulation across game entities.
+- **Resilience & Modular Design:** Custom multi-layered exception handling (`InsufficientBudgetException`, `OverLoopException`) to safeguard turn-based combat loops, dynamic inventory states, and external file-based story/state persistence.
+
+#### 10. 📸 ScreenSnap Studio — Desktop Screen Capture & Annotation Suite (Python)
+*A modular desktop screen capture and markup tool built with Python, Tkinter, MSS, and Pillow.*
+- **Global Hotkey Subsystem:** Global background listener for instant fullscreen captures (`F1`) and interactive freeze-screen rectangular snips (`F2`) with live pixel dimension guidelines.
+- **Integrated Annotation Canvas:** Vector drawing tools (arrows, rectangles, ellipses, highlight brushes, text labels, and privacy blur/pixelation) with an Undo/Redo history stack.
+- **Cloud Dispatch:** One-click anonymous cloud upload with automatic clipboard link synchronization.
 
 ---
 
-### GitHub Stats
+### 📚 Currently Learning & Exploring
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AslanRunner&show_icons=true&theme=github_dark&hide_border=true&cache_seconds=86400" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AslanRunner&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400" alt="Top Languages" width="48%" />
-</div>
+- Distributed Systems & Cloud-Native Architectures
+- Autonomous Agentic Workflows & Multi-Agent Frameworks
+- Database Internals, Query Optimization & High-Throughput Indexing
+- Containerization & CI/CD Pipelines (Docker, Kubernetes, GitHub Actions)
+- Microservices Architecture with Spring Cloud
+
+---
+
+### 🎯 Goals
+
+- Deepen expertise in high-concurrency backend architecture and distributed systems
+- Build production-ready, data-intensive GenAI applications
+- Contribute actively to prominent open-source repositories
+- Regularly write technical articles and architectural breakdowns
+
+---
+
+### 📫 Contact
+
+- **LinkedIn:** [linkedin.com/in/aslan-yusuf-zeybek](https://www.linkedin.com) *(LinkedIn profil linkini buraya ekleyebilirsin)*
+- **Email:** aslan.yusuf.zeybek@gmail.com *(Kendi e-postanı buraya ekleyebilirsin)*
+- **GitHub:** [github.com/AslanRunner](https://github.com/AslanRunner)
+
+⭐ *Thanks for visiting my profile!*
