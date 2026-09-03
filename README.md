@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Aslan Yusuf Zeybek; (EN)
+# 👋 Hi, I'm Aslan Yusuf Zeybek
 
 ### 🎓 About Me
 
@@ -106,7 +106,7 @@ During my software engineering internship, I designed and developed an enterpris
 ### 📫 Contact
 
 - **LinkedIn:** [linkedin.com/in/aslan-yusuf-zeybek](https://www.linkedin.com) *(LinkedIn profil linkini buraya ekleyebilirsin)*
-- **Email:** aslan.yusuf.zeybek@gmail.com *(Kendi e-postanı buraya ekleyebilirsin)*
+- **Email:** aslanyusufzeybek@gmail.com
 - **GitHub:** [github.com/AslanRunner](https://github.com/AslanRunner)
 
 ⭐ *Thanks for visiting my profile!*
