@@ -73,12 +73,11 @@ During my software engineering internship, I designed and developed an enterpris
 - **OOP Architecture:** Deep inheritance hierarchies (`BaseSoul`, `Shinigami`, `Enemy`, `VastoLorde`), polymorphism through specialized interfaces (`Attack`, `Usable`, `Lootable`, `Saveable`), and encapsulation across game entities.
 - **Resilience & Modular Design:** Custom multi-layered exception handling (`InsufficientBudgetException`, `OverLoopException`) to safeguard turn-based combat loops, dynamic inventory states, and external file-based story/state persistence.
 
-#### 10. 📸 ScreenSnap Studio — Desktop Screen Capture & Annotation Suite (Python)
+#### 10. 📸 [ScreenSnap Studio](https://github.com/AslanRunner/Screenshot-App) — Desktop Screen Capture & Annotation Suite (Python)
 *A modular desktop screen capture and markup tool built with Python, Tkinter, MSS, and Pillow.*
 - **Global Hotkey Subsystem:** Global background listener for instant fullscreen captures (`F1`) and interactive freeze-screen rectangular snips (`F2`) with live pixel dimension guidelines.
 - **Integrated Annotation Canvas:** Vector drawing tools (arrows, rectangles, ellipses, highlight brushes, text labels, and privacy blur/pixelation) with an Undo/Redo history stack.
 - **Cloud Dispatch:** One-click anonymous cloud upload with automatic clipboard link synchronization.
-
 ---
 
 ### 📚 Currently Learning & Exploring
