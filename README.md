@@ -45,7 +45,8 @@ During my software engineering internship, I designed and developed an enterpris
 - **Automated Pattern Detection:** Heuristic DOM parser that identifies repeating structural clusters without needing hard-coded XPath or CSS rules.
 - **Modern Desktop GUI & CLI:** Built with **CustomTkinter** featuring light/dark themes, live table search/filtering, and one-click exports, alongside an interactive terminal CLI.
 
-#### 5. 📑🧠 AI PDF Question Answering & Multi-Document Comparative Synthesis Engine
+
+#### 5. 📑🧠 [AI PDF QA](https://github.com/AslanRunner/ai-pdf-qa) 
 *A document intelligence application that ingests single or multiple PDF documents to provide conversational Q&A, cross-document comparison, and factual synthesis.*
 - **Context Fusion & Attribution:** Streams and extracts text using `pypdf`, marks document boundaries, and performs comparative cross-document analysis using **LangChain** and **Google Gemini**.
 - **Source Citation:** Accurately cites exact document origins for each generated finding.
