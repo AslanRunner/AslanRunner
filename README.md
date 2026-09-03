@@ -25,7 +25,7 @@ During my software engineering internship, I designed and developed an enterpris
 - **Resource Collision Engine:** Interactive meeting room scheduler (09:00–18:00) with client-side real-time conflict checking (`useMemo`) paired with strict server-side transaction validation.
 - **Business Rule Automation:** Working-day leave calculator with automatic weekend exclusion, dynamic hierarchical organizational tree directory, and corporate announcement boards with cascading database integrity (`orphanRemoval = true`).
 
-#### 2. 📚🤖 Türkçe Kitap Chatbot — AI-Powered Semantic Book Discovery Assistant
+#### 2. 📚🤖 [Türkçe Kitap Chatbot](https://github.com/AslanRunner/turkce-kitap-chatbot)
 *A personalized literary recommendation and conversational advisor driven by Retrieval-Augmented Generation (RAG) over a large-scale Turkish literature database.*
 - **Domain-Specific Dataset:** Ingests and indexes over **60,000+ curated Turkish books** sourced from the YTÜ COSMOS Turkish Book Dataset.
 - **Semantic Vector Pipeline:** Built with **Chroma DB** and **Google Text Embedding 004** to enable low-latency semantic search and contextual genre matching.
