@@ -63,17 +63,17 @@ During my software engineering internship, I designed and developed an enterpris
 - **Hardware Signal Processing:** Features a clock-counter debouncer algorithm (~1M cycles on the 100 MHz clock) to eliminate tactile button contact bounce and metastability.
 - **Display Subsystem:** Binary-to-BCD conversion module and a high-speed optical multiplexer for the 4-digit 7-segment display, complete with Two's Complement signed negative number rendering.
 
-#### 8. 🔍 Zachary Karate Club Modularity Optimization & Community Detection (C)
+#### 8. 🔍 [Graph Modularity Detection](https://github.com/AslanRunner/INF224_Project)
 *A graph analytics and community detection suite developed in C to uncover natural community clustering within social networks.*
 - **Algorithmic Implementations:** Benchmarks three distinct strategies: **Fast Greedy** modularity optimization, the multi-phase **Louvain** algorithm, and a custom seed-based neighborhood proximity heuristic.
 - **Graph Mathematics:** Computes and outputs modularity scores ($Q$) and node assignment vectors across the 34-node, 78-edge Zachary Karate Club graph.
 
-#### 9. ⚔️ [SoulReaper](https://github.com/AslanRunner/SoulReaper) — Terminal-Based Fantasy Tactical RPG Engine (Java OOP)
+#### 9. ⚔️ [SoulReaper](https://github.com/AslanRunner/SoulReaper) 
 *An interactive terminal-based RPG developed in Java, architected to demonstrate advanced Object-Oriented Software Design patterns.*
 - **OOP Architecture:** Deep inheritance hierarchies (`BaseSoul`, `Shinigami`, `Enemy`, `VastoLorde`), polymorphism through specialized interfaces (`Attack`, `Usable`, `Lootable`, `Saveable`), and encapsulation across game entities.
 - **Resilience & Modular Design:** Custom multi-layered exception handling (`InsufficientBudgetException`, `OverLoopException`) to safeguard turn-based combat loops, dynamic inventory states, and external file-based story/state persistence.
 
-#### 10. 📸 [ScreenSnap Application](https://github.com/AslanRunner/Screenshot-App) — Desktop Screen Capture & Annotation Suite (Python)
+#### 10. 📸 [ScreenSnap Application](https://github.com/AslanRunner/Screenshot-App)
 *A modular desktop screen capture and markup tool built with Python, Tkinter, MSS, and Pillow.*
 - **Global Hotkey Subsystem:** Global background listener for instant fullscreen captures (`F1`) and interactive freeze-screen rectangular snips (`F2`) with live pixel dimension guidelines.
 - **Integrated Annotation Canvas:** Vector drawing tools (arrows, rectangles, ellipses, highlight brushes, text labels, and privacy blur/pixelation) with an Undo/Redo history stack.
