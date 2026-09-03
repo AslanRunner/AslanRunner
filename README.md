@@ -8,10 +8,10 @@ During my software engineering internship, I designed and developed an enterpris
 ### 💡 Technologies I Know
 
 - **Programming Languages:** Python, Java, C, Verilog, JavaScript, SQL
-- **AI & LLM Engineering:** LangChain, Chroma DB, RAG, Text Embeddings, Prompt Engineering
+- **AI, ML & Data Science:** LangChain, Google Gemini API, Chroma DB, RAG (Retrieval-Augmented Generation), Pandas, NumPy, Scikit-learn, Text Embeddings
 - **Backend & Web Frameworks:** FastAPI, Spring Boot (Spring Security, Spring Data JPA, Hibernate), Streamlit, Uvicorn, RESTful APIs
 - **Frontend & UI Engineering:** React, TradingView Lightweight Charts, CustomTkinter, Django
-- **Systems, Networking & Hardware:** Basys 3 FPGA, Vivado, P2P LAN Streaming, PostgreSQL, SQLite, Pandas, NumPy, MSS, Pillow, pynput
+- **Systems, Networking & Hardware:** Basys 3 FPGA, Vivado, P2P LAN Streaming, PostgreSQL, SQLite, MSS, Pillow, pynput
 - **Tools & DevOps:** Git, GitHub, VS Code, IntelliJ IDEA, Maven, Docker
 
 ---
