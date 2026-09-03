@@ -68,7 +68,7 @@ During my software engineering internship, I designed and developed an enterpris
 - **Algorithmic Implementations:** Benchmarks three distinct strategies: **Fast Greedy** modularity optimization, the multi-phase **Louvain** algorithm, and a custom seed-based neighborhood proximity heuristic.
 - **Graph Mathematics:** Computes and outputs modularity scores ($Q$) and node assignment vectors across the 34-node, 78-edge Zachary Karate Club graph.
 
-#### 9. ⚔️ SoulReaper — Terminal-Based Fantasy Tactical RPG Engine (Java OOP)
+#### 9. ⚔️ [SoulReaper](https://github.com/AslanRunner/SoulReaper) — Terminal-Based Fantasy Tactical RPG Engine (Java OOP)
 *An interactive terminal-based RPG developed in Java, architected to demonstrate advanced Object-Oriented Software Design patterns.*
 - **OOP Architecture:** Deep inheritance hierarchies (`BaseSoul`, `Shinigami`, `Enemy`, `VastoLorde`), polymorphism through specialized interfaces (`Attack`, `Usable`, `Lootable`, `Saveable`), and encapsulation across game entities.
 - **Resilience & Modular Design:** Custom multi-layered exception handling (`InsufficientBudgetException`, `OverLoopException`) to safeguard turn-based combat loops, dynamic inventory states, and external file-based story/state persistence.
