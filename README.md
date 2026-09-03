@@ -4,7 +4,7 @@
 
 I'm a Computer Engineering student at **Galatasaray University** (GPA: 3.38/4.00) with a strong passion for full-stack software engineering, applied artificial intelligence (LLMs & RAG), systems design, and digital hardware architecture. 
 
-During my software engineering internship, I designed and developed an enterprise-grade internal portal and employee management system. I am also an alumnus of the **Akbank Generative AI Bootcamp** (Global AI Hub). I am trilingual, fluent in Turkish, English, and French (DELF B2 certified).
+During my software engineering internship, I designed and developed an enterprise-grade internal portal and employee management system. I am also an alumnus of the **Akbank Generative AI Bootcamp** (Global AI Hub). I am trilingual, fluent in Turkish, English, and French.
 
 ---
 
