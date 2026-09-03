@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Aslan Yusuf Zeybek
 
-I'm a Computer Engineering student at **Galatasaray University** (GPA: 3.38/4.00), currently spending this academic year at **INSA Lyon** as an exchange student. I have a deep passion for full-stack software engineering, data-driven problem solving, and intelligent systems, with a strong focus on **Data Science**, **Machine Learning (ML)**, and applied AI architectures (LLMs & RAG).
+I'm a Computer Engineering student at **Galatasaray University** (GPA: 3.38/4.00), currently spending this academic year at **INSA Lyon** as an exchange student. I have a deep passion for full-stack software engineering, data-driven problem solving, and intelligent systems, with a strong focus on **Data Science**, **Machine Learning**, and applied AI architectures.
 During my software engineering internship, I designed and developed an enterprise-grade internal corporate portal and employee management system. I am also an alumnus of the **Akbank Generative AI Bootcamp** (Global AI Hub). 
 
 ---
