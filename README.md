@@ -32,7 +32,8 @@ During my software engineering internship, I designed and developed an enterpris
 - **GenAI Conversational Engine:** Powered by **Google Gemini 2.0 Flash** via **LangChain**, featuring multi-turn conversation memory, category filtering, and contextual book synthesis.
 - **User Interface:** Clean, interactive **Streamlit** dashboard delivering instant query responses and categorized book suggestions.
 
-#### 3. 📈⚡ Stock Viewer — Institutional Financial Terminal & Market Intelligence Engine
+
+#### 3. 📈⚡ [Stock Viewer](https://github.com/AslanRunner/stock-viewer) 
 *A high-performance equity analytics workstation, institutional technical charting canvas, and automated market intelligence engine.*
 - **Hardware-Accelerated Charting:** 60 FPS candlestick canvas powered by **TradingView Lightweight Charts v4**, optimized with `requestAnimationFrame` render gating, frustum culling, and HiDPI Retina scaling.
 - **Technical Drawing Tools:** Magnetic wick snapping, support/resistance trendlines, parallel regression channels, Fibonacci retracement levels (0.0%–100.0%), Elliott impulse waves, and translucent supply/demand zones with a multi-step Undo/Redo history stack.
