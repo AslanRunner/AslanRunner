@@ -57,7 +57,7 @@ During my software engineering internship, I designed and developed an enterpris
 - **Flat 1 MB RAM Footprint:** Streams uploads in 1 MB chunks directly to disk, maintaining steady ~1 MB RAM consumption whether transferring small documents or 4 GB 4K video files.
 - **Security & UI:** Built-in path traversal protection (`resolve_upload_path`), two-way upload/download capabilities, and a responsive mobile-first glassmorphism dashboard with live progress indicators.
 
-#### 7. ⚙️ Basys 3 8-Bit Arithmetic Logic Unit (ALU) & Display Controller (Verilog)
+#### 7. ⚙️ [Basys 3 8-Bit ALU](https://github.com/AslanRunner/Basys3-8Bit-ALU) 
 *An 8-bit digital ALU and custom control unit implemented in Verilog for the Xilinx Basys 3 FPGA development board.*
 - **Architecture & Instruction Set:** Connects a 16-bit instruction decoder (`control_unit.v`), 16 internal 8-bit registers, and a 256-byte internal RAM block to execute 16 arithmetic, logic, and memory operations.
 - **Hardware Signal Processing:** Features a clock-counter debouncer algorithm (~1M cycles on the 100 MHz clock) to eliminate tactile button contact bounce and metastability.
