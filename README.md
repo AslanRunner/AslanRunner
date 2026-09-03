@@ -18,7 +18,8 @@ During my software engineering internship, I designed and developed an enterpris
 
 ### 🚀 Projects
 
-#### 1. 🏢 Enterprise Portal — Full-Stack Corporate Operations & Workforce Suite
+
+#### 1. 🏢 [Enterprise Portal](https://github.com/AslanRunner/Enterprise-Portal) 
 *A comprehensive, multi-tiered enterprise management platform engineered to centralize workforce directory operations, meeting room allocations, equipment inventory, and administrative workflows.*
 - **Three-Tier Architecture:** Built on a decoupled stack featuring a **Spring Boot** REST API, a responsive **React (Vite)** single-page application, and a **PostgreSQL** relational database.
 - **Adaptive RBAC & Governance:** Dual-layer Role-Based Access Control (`ADMIN`, `MANAGER`, `EMPLOYEE`) with automatic administrative view unlocking and strict self-approval prevention rules for leave/hardware requests.
