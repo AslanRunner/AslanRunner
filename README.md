@@ -104,7 +104,7 @@ During my software engineering internship, I designed and developed an enterpris
 
 ### 📫 Contact
 
-- **LinkedIn:** [linkedin.com/in/aslan-yusuf-zeybek](https://www.linkedin.com) *(LinkedIn profil linkini buraya ekleyebilirsin)*
+- **LinkedIn:** [linkedin.com/in/aslan-yusuf-zeybek](https://www.linkedin.com/in/aslan-yusuf-zeybek-3513a1295/) 
 - **Email:** aslanyusufzeybek@gmail.com
 - **GitHub:** [github.com/AslanRunner](https://github.com/AslanRunner)
 
