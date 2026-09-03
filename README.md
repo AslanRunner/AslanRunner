@@ -39,7 +39,7 @@ During my software engineering internship, I designed and developed an enterpris
 - **Market Intelligence & Automation:** Configurable trigger engine (price breakouts, stop-losses, RSI 14 overbought/oversold limits) with real-time SMTP email notifications, plus a background cron daemon dispatching scheduled daily/weekly PDF and HTML market intelligence reports.
 - **Dual Interface:** Full-stack architecture combining a modern **FastAPI** web workstation and an interactive terminal CLI.
 
-#### 4. 🕷️🔍 Scrape Agent — Autonomous Web Data Extraction & Pattern Recognition Suite
+#### 4. 🕷️🔍 [Scrape Agent](https://github.com/AslanRunner/scrape-agent)
 *A zero-config scraping utility that automatically discovers repeating DOM structures (cards, tables, listings) and converts unstructured web pages into CSV/JSON datasets without manual selectors.*
 - **Dual Scraping Engines:** Integrates a fast, lightweight HTTP engine (`requests`) for static HTML and a headless Chromium engine (**Playwright**) for JavaScript-rendered Single Page Applications (SPAs).
 - **Automated Pattern Detection:** Heuristic DOM parser that identifies repeating structural clusters without needing hard-coded XPath or CSS rules.
