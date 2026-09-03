@@ -58,6 +58,6 @@
 ### GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AslanRunner&show_icons=false&theme=transparent&hide_border=true&title_color=00599C&text_color=777777" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AslanRunner&layout=compact&theme=transparent&hide_border=true&title_color=00599C&text_color=777777" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AslanRunner&show_icons=true&theme=github_dark&hide_border=true&cache_seconds=86400" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AslanRunner&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400" alt="Top Languages" width="48%" />
 </div>
