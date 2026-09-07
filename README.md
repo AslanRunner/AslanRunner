@@ -108,4 +108,3 @@ During my software engineering internship, I designed and developed an enterpris
 - **Email:** aslanyusufzeybek@gmail.com
 - **GitHub:** [github.com/AslanRunner](https://github.com/AslanRunner)
 
-⭐ *Thanks for visiting my profile!*
