@@ -93,7 +93,7 @@ During my software engineering internship, I designed and developed an enterpris
 
 ---
 
-### 🎯 Goals
+###  Goals
 
 - Deepen expertise in high-concurrency backend architecture and distributed systems
 - Build production-ready, data-intensive GenAI applications
@@ -102,7 +102,7 @@ During my software engineering internship, I designed and developed an enterpris
 
 ---
 
-### 📫 Contact
+###  Contact
 
 - **LinkedIn:** [linkedin.com/in/aslan-yusuf-zeybek](https://www.linkedin.com/in/aslan-yusuf-zeybek-3513a1295/) 
 - **Email:** aslanyusufzeybek@gmail.com
